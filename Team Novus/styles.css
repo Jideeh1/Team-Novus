@@ -115,9 +115,17 @@ figure {
 }
 
 .imgcon {
+    cursor: pointer;
     display: flex;
     gap: 20px;
     .imgitem {
+        border: #ffffff10 2px solid;
         width: 200px;
+        transition: border 0.2s ease-in-out;
+        transition: transform 0.4s ease-in-out;
+    }
+    .imgitem:hover {
+        border: #ffffff 2px solid;
+        transform: scale(1.05);
     }
 }

@@ -1,3 +1,5 @@
-function changehero() {
-    document.getElementById("change").src="assets/images1"
-};
+function changehero(clickedImage) {
+    const bruhSrc = clickedImage.src;
+    document.getElementById("change").src = bruhSrc;
+    console.log("You have pressed the button"); //debugging
+}
