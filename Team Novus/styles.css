@@ -83,12 +83,12 @@ nav {
 }
 
 .over {
+    position: absolute;
     background-color: #171615;
     width: 300px;
     padding: 20px;
-    position: absolute;
     top: 420px;
-    left: 70px;
+    left: 100px;
     border-top: #c6c7c715 solid 4px;
     z-index: 1;
     h4 {
@@ -102,6 +102,8 @@ nav {
 figure {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
     z-index: 2;
 }
 
@@ -110,4 +112,12 @@ figure {
     color: black;
     background-color: #8dfea9;
     padding: 5px 10px;
+}
+
+.imgcon {
+    display: flex;
+    gap: 20px;
+    .imgitem {
+        width: 200px;
+    }
 }
